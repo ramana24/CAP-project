@@ -7,7 +7,7 @@ entity Books {
   author : Association to Authors;
   stock  : Integer;
   price: Integer;
-  pages: Integer;
+  pages: String;
 }
 
 entity Authors {
